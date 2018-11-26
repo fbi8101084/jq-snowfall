@@ -27,5 +27,6 @@ Css
 .jq-snowfall > canvas {
     position: fixed;
     top: 0;
+    pointer-events: none;
 }
 ```
