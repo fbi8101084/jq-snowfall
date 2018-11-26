@@ -1,5 +1,7 @@
-### Sample Code
+### Requirement
+1. Base on jqeury 2.0 upper.
 
+### Sample Code
 ```javascript
 
 		$.snowFall({
