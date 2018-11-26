@@ -2,6 +2,7 @@
 1. Base on jqeury 2.0 upper.
 
 ### Sample Code
+Javascript
 ```javascript
 $.snowFall({
 	//创建粒子数量，密度
@@ -20,4 +21,11 @@ $.snowFall({
 	angle:55,
 	wind_weight:0
 });
+```
+Css
+```css
+.jq-snowfall > canvas {
+    position: fixed;
+    top: 0;
+}
 ```
