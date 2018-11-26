@@ -152,7 +152,7 @@ jQuery.extend({
 			
 			particles.push(particle); 
 		}
-
+        renderer.domElement.classname = 'jq-snowfall';
 		container.appendChild( renderer.domElement );
 		if(opts.bindMouse){
 			document.addEventListener( 'mousemove', onDocumentMouseMove, false );
